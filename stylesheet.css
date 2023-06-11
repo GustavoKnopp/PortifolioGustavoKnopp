@@ -1,0 +1,528 @@
+@font-face{
+    font-family: 'Rubik';
+    src: url(Rubik/Rubik-VariableFont_wght.ttf);
+}
+
+@font-face{
+    font-family: 'Inconsolata';
+    src: url(Inconsolata/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+#logo img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 30px;
+    top: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 70px;
+    background-color: #b4e1aa;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 0px 20px -10px;
+}
+
+#instagram img, #artstation img{
+    width: 40px;
+    height: 40px;
+}
+
+#instagram, #artstation{
+    float: left;
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+#artstation{
+    margin-left: 15px;
+    /*background-color: azure;*/
+}
+
+#instagram{
+    margin-left: 150px;
+    /*background-color: blue;*/
+}
+
+#linkportifolio{
+    float: right;
+    margin-right: 30px;
+    height: 100%;
+    width: 10%;
+    text-align: center;
+    line-height: 20px;
+}
+
+#linkportifolio:hover{
+    background-color: #93b58c;
+}
+
+#sessao1{
+    width: 76%;
+    height: 300px;
+    /*background-color: brown;*/
+    margin-left: 12%;
+    color: #575757;
+}
+
+#sessao2{
+    width: 100%;
+    height: 500px;
+    background-color: #b4e1aa;
+}
+
+#sessao3{
+    width: 100%;
+    height: 200px;
+    /*background-color: goldenrod;*/
+    display: inline-block;
+}
+
+#contatos{
+    float: left;
+}
+
+#estrela, #estrela2, #estrela3{
+    width: 150px;
+    height: 150px;
+    background-image: url(icons/estrela.png);
+    background-size: cover;
+    float: right;
+}
+
+#estrela3{
+    position: absolute;
+    right: 0px;
+    bottom: 211px;
+}
+
+#nome{
+    text-align: center;
+    font-family: 'Rubik';
+    font-size: 300%;
+        color: #000000;
+}
+
+#apresentacao{
+    text-align: center;
+    font-family: 'Inconsolata';
+    font-size: 150%;
+}
+
+#Ilustracoes{
+    width: 500px;
+    height: 300px;
+    background-color: aquamarine;
+    background-image: url(icons/imagemfundo2.jpg);
+    background-size: cover;
+    float: left;
+    margin-left: 160px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px -10px;
+    border-radius: 10px;
+}
+
+#Videos{
+    width: 500px;
+    height: 300px;
+    /*background-color: aquamarine;*/
+    background-image: url(icons/imagemfundo1.png);
+    background-size: cover;
+    float: right;
+    margin-right: 160px;
+    margin-top: 100px;
+    box-shadow: 0px 0px 20px -10px;
+    border-radius: 10px;
+}
+
+a{
+    font-family: 'Rubik'; 
+}
+
+#pinto{
+    font-family: 'Rubik'; 
+    color: white;
+    position: absolute;
+    left: 160px;
+    font-size: 230%;
+}
+
+#cabecalho2{
+    width: 100%;
+    height: 100px;
+    background-color: #b4e1aa;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 0px 0px 20px -10px;
+}
+
+#desenhoseilustracoes{
+    font-family: 'Rubik';
+    color: white;
+    position: absolute;
+    left: 1%;
+    font-size: 230%;
+}
+
+#sla{
+    font-family: 'Rubik';
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 43px;
+    font-size: 100%;
+}
+
+#sla2{
+    font-family: 'Rubik';
+    color: white;
+    position: absolute;
+    left: 235px;
+    top: 26px;
+    font-size: 100%;
+}
+
+#sla3{
+    font-family: 'Rubik';
+    color: white;
+    position: absolute;
+    left: 165px;
+    top: 43px;
+    font-size: 100%;
+}
+
+#sla4{
+    font-family: 'Rubik';
+    color: white;
+    position: absolute;
+    left: 150px;
+    top: 26px;
+    font-size: 100%;
+}
+
+#links{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inconsolata';
+    font-size: 200%;
+}
+
+#links:hover{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inconsolata';
+    font-size: 250%;
+}
+
+#links2{
+    color: white;
+    text-decoration: none;
+    font-family: 'Inconsolata';
+    font-size: 150%;
+    transition: 1s;
+}
+
+#wow{
+    text-align: center;
+    margin-top: 125px;
+}
+
+#imagens, #filmes{
+    width: 90%;
+    height: 100%;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+#img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8{
+    width: 432px;
+    height: 432px;
+    background-size: cover;
+    display: inline-block;
+}
+
+#img1{
+    background-image: url(ilustracoes/ilus1.jpg);
+}
+#img2{
+    background-image: url(ilustracoes/ilus2.jpg);
+}
+#img3{
+    background-image: url(ilustracoes/ilus3.jpg);
+}
+#img4{
+    background-image: url(ilustracoes/ilus4.jpg);
+}
+#img5{
+    background-image: url(ilustracoes/ilus5.jpg);
+}
+#img6{
+    background-image: url(ilustracoes/ilus6.jpg);
+}
+#img7{
+    background-image: url(ilustracoes/ilus7.jpg);
+}
+#img8{
+    background-image: url(ilustracoes/ilus8.jpg);
+}
+
+#linkref{
+    height: 100px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 415px) {
+    #cabecalho{
+        width: 414px;
+        height: 50px;
+    }
+
+    #logo img{
+        width: 40px;
+        height: 40px;
+        left: 10px;
+        top: 5px;
+    }
+
+    #instagram, #artstation{
+        visibility: hidden;
+    }
+
+    #linkportifolio{
+        visibility: hidden;
+    }
+
+    #sessao1{
+        width: 76%;
+        height: 300px;
+        /*background-color: brown;*/
+        margin-left: 12%;
+        color: #575757;
+    }
+    
+    #sessao2{
+        width: 100%;
+        height: 500px;
+        background-color: #b4e1aa;
+    }
+    
+    #sessao3{
+        width: 100%;
+        height: 200px;
+        /*background-color: goldenrod;*/
+        display: inline-block;
+    }
+    
+    #contatos{
+        float: left;
+    }
+    
+    #estrela, #estrela2, #estrela3{
+        width: 150px;
+        height: 150px;
+        background-image: url(icons/estrela.png);
+        background-size: cover;
+        float: right;
+    }
+    
+    #estrela3{
+        position: absolute;
+        right: 0px;
+        bottom: 211px;
+    }
+    
+    #nome{
+        text-align: center;
+        font-family: 'Rubik';
+        font-size: 300%;
+            color: #000000;
+    }
+    
+    #apresentacao{
+        text-align: center;
+        font-family: 'Inconsolata';
+        font-size: 150%;
+    }
+    
+    #Ilustracoes{
+        width: 500px;
+        height: 300px;
+        background-color: aquamarine;
+        background-image: url(icons/imagemfundo2.jpg);
+        background-size: cover;
+        float: left;
+        margin-left: 160px;
+        margin-top: 100px;
+        box-shadow: 0px 0px 20px -10px;
+        border-radius: 10px;
+    }
+    
+    #Videos{
+        width: 500px;
+        height: 300px;
+        /*background-color: aquamarine;*/
+        background-image: url(icons/imagemfundo1.png);
+        background-size: cover;
+        float: right;
+        margin-right: 160px;
+        margin-top: 100px;
+        box-shadow: 0px 0px 20px -10px;
+        border-radius: 10px;
+    }
+    
+    a{
+        font-family: 'Rubik'; 
+    }
+    
+    #pinto{
+        font-family: 'Rubik'; 
+        color: white;
+        position: absolute;
+        left: 160px;
+        font-size: 230%;
+    }
+    
+    #cabecalho2{
+        width: 100%;
+        height: 100px;
+        background-color: #b4e1aa;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        box-shadow: 0px 0px 20px -10px;
+    }
+    
+    #desenhoseilustracoes{
+        font-family: 'Rubik';
+        color: white;
+        position: absolute;
+        left: 1%;
+        font-size: 230%;
+    }
+    
+    #sla{
+        font-family: 'Rubik';
+        color: white;
+        position: absolute;
+        left: 250px;
+        top: 43px;
+        font-size: 100%;
+    }
+    
+    #sla2{
+        font-family: 'Rubik';
+        color: white;
+        position: absolute;
+        left: 235px;
+        top: 26px;
+        font-size: 100%;
+    }
+    
+    #sla3{
+        font-family: 'Rubik';
+        color: white;
+        position: absolute;
+        left: 165px;
+        top: 43px;
+        font-size: 100%;
+    }
+    
+    #sla4{
+        font-family: 'Rubik';
+        color: white;
+        position: absolute;
+        left: 150px;
+        top: 26px;
+        font-size: 100%;
+    }
+    
+    #links{
+        color: white;
+        text-decoration: none;
+        font-family: 'Inconsolata';
+        font-size: 200%;
+    }
+    
+    #links:hover{
+        color: white;
+        text-decoration: none;
+        font-family: 'Inconsolata';
+        font-size: 250%;
+    }
+    
+    #links2{
+        color: white;
+        text-decoration: none;
+        font-family: 'Inconsolata';
+        font-size: 150%;
+        transition: 1s;
+    }
+    
+    #wow{
+        text-align: center;
+        margin-top: 125px;
+    }
+    
+    #imagens, #filmes{
+        width: 90%;
+        height: 100%;
+        text-align: center;
+        margin-left: 5%;
+        margin-top: 3px;
+        display: inline-block;
+    }
+    
+    #img1, #img2, #img3, #img4, #img5, #img6, #img7, #img8{
+        width: 432px;
+        height: 432px;
+        background-size: cover;
+        display: inline-block;
+    }
+    
+    #img1{
+        background-image: url(ilustracoes/ilus1.jpg);
+    }
+    #img2{
+        background-image: url(ilustracoes/ilus2.jpg);
+    }
+    #img3{
+        background-image: url(ilustracoes/ilus3.jpg);
+    }
+    #img4{
+        background-image: url(ilustracoes/ilus4.jpg);
+    }
+    #img5{
+        background-image: url(ilustracoes/ilus5.jpg);
+    }
+    #img6{
+        background-image: url(ilustracoes/ilus6.jpg);
+    }
+    #img7{
+        background-image: url(ilustracoes/ilus7.jpg);
+    }
+    #img8{
+        background-image: url(ilustracoes/ilus8.jpg);
+    }
+    
+    #linkref{
+        height: 100px;
+        width: 100%;
+    }
+}
